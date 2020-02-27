@@ -1,13 +1,36 @@
 ---
-title: "Document by Code Bushi"
-description: "Welcome to Document, a Gatsby.js theme by Code Bushi. Quickly and easily create documentation for anything using MDX or Markdown."
+title: "Just fantasy"
+description: "MDX documentation site for Kyrkon."
 ---
 
-Welcome to Document, a Gatsby.js theme by [Code Bushi](https://codebushi.com/gatsby-starters-and-themes/). Quickly and easily create documentation for anything using MDX or Markdown.
+Welcome to the MDX documentation site for a parallel world, named Kyrkon. This site is based on the original Gatsby.js theme, as developed by Code Bushi. This is an experiment to see how quickly and easily it is to create documentation using MDX or Markdown.
 
-👀 [View the Live Demo](https://gatsby-theme-document.netlify.com/)
+## What's inside?
 
-## Getting Started
+The site consists of three parts. 
+
+* Part I: Reference Material
+* Part II: The Codex itself and
+* Part III: Technical Reference Material 
+
+### Part I: Reference Material 
+
+The first part of the site consists of reference material, documented systematically used in the second part of the codex, in which the world is described.
+
+### Part II: Codex of Kyrkon
+
+The structure of the second part is described here...
+
+### Part III Technical Reference material
+
+Some reference links to the original theme and demo site:
+
+- [Code Bushi](https://codebushi.com/gatsby-starters-and-themes/). 
+- [View the Live Demo](https://gatsby-theme-document.netlify.com/).
+- [OnGithub](https://github.com/codebushi/gatsby-theme-document).
+- [MDX](https://mdxjs.com/).
+
+#### Getting Started
 
 Using the Gatsby CLI
 
@@ -21,13 +44,13 @@ Your new site will be up at http://localhost:8000
 
 Try changing the logo by editing the file at `src/gatsby-theme-document/logo.mdx`.
 
-## Adding Content
+#### Adding Content
 
 Document is built with [MDX](https://mdxjs.com/). Content can be added by creating or editing the MDX files in the content folder `content/index.mdx`.
 
 With MDX, you can add JSX or even React components to your markdown files. Images can also be added to any `.mdx` file, and will be automatically optimized using [gatsby-remark-images](https://www.gatsbyjs.org/packages/gatsby-remark-images/).
 
-### Left Sidebar
+#### Left Sidebar
 
 The left sidebar navigation is automatically populated by the pages in the content folder. To sort the top level navigation, edit the `forcedNavOrder` option in the `gatsby-config.js` file.
 
@@ -35,11 +58,11 @@ The logo will link to the `index.mdx` page. To make the `index.mdx` page visible
 
 Sub navigation items are created by making a folder with the same name as the top level `.mdx` file. The sub navigation is ordered alphabetically.
 
-### Right Sidebar
+#### Right Sidebar
 
 The contents of the right sidebar will be automatically populated by any heading tags `h1, h2, h3, etc.` that are added to the page. They will anchor link to the corresponding heading.
 
-## Theme Colors
+#### Theme Colors
 
 Document is also built with [Theme UI](https://theme-ui.com). The icon in the top right of the site will cycle through the various color modes that are available.
 
@@ -47,7 +70,7 @@ To edit or add colors modes, edit the file at `src/gatsby-plugin-theme-ui/colors
 
 The contents of the MDX files are also styled with Theme UI and can be edited at `src/gatsby-plugin-theme-ui/index.js`. The styles for the heading tags are found at `src/gatsby-plugin-theme-ui/headingsjs`. Learn more about [styling MDX](https://theme-ui.com/styling-mdx) from the Theme UI docs.
 
-## Syntax Colors
+#### Syntax Colors
 
 Document uses [@theme-ui/prism](https://theme-ui.com/prism) for syntax highlighting. Different presets can be used by editing the file at `src/gatsby-plugin-theme-ui/index.js`. The desired preset must be included at the top of the file and spread into the `pre` styles
 

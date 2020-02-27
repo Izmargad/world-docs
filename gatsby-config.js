@@ -15,7 +15,7 @@ module.exports = {
       }
     ],
     sidebarConfig: {
-      forcedNavOrder: ["/introduction", "/codeblock"],
+      forcedNavOrder: ["/introduction", "/universe", "/planet", "/regions"],
       ignoreIndex: true
     }
   },
